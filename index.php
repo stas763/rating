@@ -1,7 +1,7 @@
 <? $get = @file_get_contents('array.txt');
 if(!empty($_POST['rating']))
 {
-		if(isset($_POST['otpravit']))
+		if(isset($_POST['send']))
 		{
 		$rating = $get.$_POST['rating'].'::';
 		$write = file_put_contents('array.txt', $rating, LOCK_EX);
@@ -56,7 +56,7 @@ $width = $array_sum* 40;
 <option>4</option>
 <option>5</option>
 </select>
-<button name="otpravit">Надіслати</button>
+<button name="send">Надіслати</button>
 </form>
 </body>
 </html>
