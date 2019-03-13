@@ -48,30 +48,6 @@ $width = $array_sum* 40;
  <?php echo  "Рейтинг $array_sum проголосувало $count" ?>
 <div class="star" title="<?php echo  "Рейтинг $array_sum проголосувало $count" ?>"><div id="star"></div></div>
 <form action="" method="post" class="post">
-
-
-
-	<div>
-		 <img class="poster" src="img/EventsPosterKlimt.jpg" alt="Poster">
-	</div>
-	<input type="text" name="name" placeholder="Ім'я"><br/>
-	<input type="email" name="email" placeholder="Email:"><br/>
-	<textarea name="comment" cols="50" rows="3" placeholder="Ваш відгук"></textarea>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <select name="rating">
 <option></option>
 <option>1</option>
@@ -82,28 +58,5 @@ $width = $array_sum* 40;
 </select>
 <button name="otpravit">Надіслати</button>
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
